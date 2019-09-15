@@ -45,19 +45,28 @@ public class FunFactsActivity extends AppCompatActivity {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                int color = colorWheel.getColor();
-
-                // get a random color and set the background color
-                layout.setBackgroundColor(color);
-                showFactButton.setTextColor(color);
-
-                // Update the screen with a new fact
-                factTextView.setText(factBook.getFact());
+                showNewFact();
             }
         };
 
         // Attaching onClick listener to our button
         showFactButton.setOnClickListener(listener);
+
+
+        // randomly show a fact for the very first time the app is opened
+        showNewFact();
+
     }
+
+    private void showNewFact(){
+        int color = colorWheel.getColor();
+
+        // get a random color and set the background color
+        layout.setBackgroundColor(color);
+        showFactButton.setTextColor(color);
+
+        // Update the screen with a new fact
+        factTextView.setText(factBook.getFact());
+    }
+
 }
