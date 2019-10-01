@@ -25,6 +25,17 @@ class FactBook {
             "Thanks to 3D printing, NASA can basically “email” tools to astronauts.",
             "No number before 1,000 contains the letter A.",
             "Neil Armstrong’s hair was sold in 2004 for $3,000.",
+            "A baby fetus develops fingerprints at eighteen weeks.",
+            "60 cows can produce a ton of milk each day.",
+            "The word 'Strengths' is the longest word in the English language with just one vowel.",
+            "HTC Touch. was the first mobile phone to feature intuitive multi-touch interface.",
+            "Chewing gum, according to research carried out at the University of Northumbria, can improve your memory significantly.",
+            "Mumbai harbour is the biggest one in India & 2nd biggest is Chennai harbour.",
+            "Indaia made its first Nuclear Bomb test on May 18, 1974.",
+            "When 2 zebras stand side by side they usually face each other in opposite directions to keep an eye out for predators.",
+            "Tarantula spiders can survive 2 and a half years without food.",
+            "Sri Shanmukhananda Hall in Mumbai is the largest auditorium in India.",
+            "Indira Gandhi was shot dead by her bodyguards 'Beant Singh', and 'Satwant Singh' on October 31, 1984.",
 
     };
 
